@@ -3,7 +3,7 @@
 
 
 .product-card{
-    @apply  max-w-[90%] h-[27rem] max-h-[30rem] max-w-[70%] w-full sm:w-[17rem] 
+    @apply  max-w-[95%] h-[27rem] max-h-[30rem] max-w-[70%] w-full sm:w-[17rem] 
             border border-slate-200 rounded-lg;
 
     .product-card-img{

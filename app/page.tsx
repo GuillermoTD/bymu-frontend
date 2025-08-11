@@ -4,7 +4,7 @@ import GridProductCard from './components/grid-product-card/GridProductCard';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col">
+    <main className="flex min-h-screen flex-col items-center">
         
       <Header/>
       <GridProductCard/>
