@@ -2,8 +2,8 @@
 
 
 .grid-product-card{
-    @apply w-full min-h-[74vh] gap-[1rem] overflow-hidden;
+    @apply w-full min-h-[74vh] gap-[1rem] overflow-hidden ;
     display:grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
-    place-items: center;
+    place-items: center center;
 }

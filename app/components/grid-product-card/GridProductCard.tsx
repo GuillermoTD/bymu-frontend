@@ -9,7 +9,6 @@ const GridProductCard = ()=>{
                 <ProductCard/>
                 <ProductCard/>
                 <ProductCard/>
-
             </div>
         </>
     )
