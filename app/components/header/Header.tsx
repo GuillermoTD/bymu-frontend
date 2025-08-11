@@ -4,18 +4,18 @@ import './HeaderStyles.css'
 const Header = ()=>{
     return(
         <div className="Header">
-            <div className="Header_Announce1 paddingGeneral">
+            <div className="header_announce1 paddingGeneral">
                 Free shipping on orders over $15,000 - Free returning
             </div>
-            <div className="Header_Navbar paddingGeneral">
-                <div className="Header_Navbar__Links">
+            <div className="header_navbar paddingGeneral">
+                <div className="header_navbar__links">
                     <a href="#">Shop</a>
                     <a href="#">New Arrivals</a>
                     <a href="#">Sale</a>
                 </div>
-                <div className="Header_Navbar__Logo text-bold">Bymu</div>
+                <div className="header_navbar__logo text-bold">Bymu</div>
                   
-                <div className="Header_Navbar__Options">
+                <div className="header_havbar__options">
                     <a href="#">Sign Up</a>
                     <a href="#">Sign In</a>
                     <Search size={18} className='cursor-pointer'/>
@@ -24,7 +24,7 @@ const Header = ()=>{
                     </div>
                 </div>
             </div>
-            <div className="Header_Announce2 paddingGeneral">
+            <div className="header_announce2 paddingGeneral">
                 Flash Sale Ends In: 22:00:00 
             </div>
         </div>

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+
+
+.product-card{
+    @apply  max-w-full h-[18rem] max-h-[20rem] w-full sm:w-[17rem] 
+            border border-slate-200 rounded-lg;
+}
